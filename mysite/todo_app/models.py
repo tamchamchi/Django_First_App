@@ -10,7 +10,6 @@ the makemigrations command: là cách để tạo ra database tables.
 """
 
 class Task (models.Model):
-    _id = models.ObjectIdField()
     title = models.CharField(max_length=100)
     status = models.BooleanField(default=False)
 
